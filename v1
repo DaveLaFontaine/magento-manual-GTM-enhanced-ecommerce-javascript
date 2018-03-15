@@ -1,0 +1,16 @@
+function() {
+ var ecommerceData = {
+   'ecommerce' : {
+     currency : 'USD',
+     quantity: 1,
+ 	 revenue: {{dataLayer Transaction Value}},
+ 	transactionId: {{transactionID}},
+	transactionTax: {{transactionTax}},
+	name: {{name}},
+	category: {{category}},
+	coupon: {{coupon}},
+	price: {{price}}
+    }
+ };
+ return ecommerceData;
+}
